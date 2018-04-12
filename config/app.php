@@ -178,6 +178,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         // IDE-HELPER
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        // Laroute
+        Lord\Laroute\LarouteServiceProvider::class,
     ],
 
     /*

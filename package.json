@@ -16,6 +16,15 @@
         "jquery": "^3.2",
         "laravel-mix": "^1.0",
         "lodash": "^4.17.4",
-        "vue": "^2.5.7"
+        "vue": "^2.5.16"
+    },
+    "dependencies": {
+        "moment": "^2.22.0",
+        "sortablejs": "^1.7.0",
+        "v-tippy": "^1.0.2",
+        "vue-directive-image-previewer": "^1.1.2",
+        "vue-js-toggle-button": "^1.2.2",
+        "vue2-google-maps": "^0.8.12",
+        "vue2-timepicker": "^0.1.4"
     }
 }

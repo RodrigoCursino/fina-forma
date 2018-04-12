@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2018-04-12 19:42:03.
+    * Generated on 2018-04-12 21:19:38.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -54,6 +54,9 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
+        'Lord\Laroute\Generators\GeneratorInterface' => \Lord\Laroute\Generators\TemplateGenerator::class,
+        'Lord\Laroute\Compilers\CompilerInterface' => \Lord\Laroute\Compilers\TemplateCompiler::class,
+        'command.laroute.generate' => \Lord\Laroute\Console\Commands\LarouteGeneratorCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'hash' => \Illuminate\Hashing\BcryptHasher::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
@@ -195,6 +198,9 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
+        'Lord\Laroute\Generators\GeneratorInterface' => \Lord\Laroute\Generators\TemplateGenerator::class,
+        'Lord\Laroute\Compilers\CompilerInterface' => \Lord\Laroute\Compilers\TemplateCompiler::class,
+        'command.laroute.generate' => \Lord\Laroute\Console\Commands\LarouteGeneratorCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'hash' => \Illuminate\Hashing\BcryptHasher::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
@@ -336,6 +342,9 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
+        'Lord\Laroute\Generators\GeneratorInterface' => \Lord\Laroute\Generators\TemplateGenerator::class,
+        'Lord\Laroute\Compilers\CompilerInterface' => \Lord\Laroute\Compilers\TemplateCompiler::class,
+        'command.laroute.generate' => \Lord\Laroute\Console\Commands\LarouteGeneratorCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'hash' => \Illuminate\Hashing\BcryptHasher::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
@@ -477,6 +486,9 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
+        'Lord\Laroute\Generators\GeneratorInterface' => \Lord\Laroute\Generators\TemplateGenerator::class,
+        'Lord\Laroute\Compilers\CompilerInterface' => \Lord\Laroute\Compilers\TemplateCompiler::class,
+        'command.laroute.generate' => \Lord\Laroute\Console\Commands\LarouteGeneratorCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'hash' => \Illuminate\Hashing\BcryptHasher::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
@@ -618,6 +630,9 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
+        'Lord\Laroute\Generators\GeneratorInterface' => \Lord\Laroute\Generators\TemplateGenerator::class,
+        'Lord\Laroute\Compilers\CompilerInterface' => \Lord\Laroute\Compilers\TemplateCompiler::class,
+        'command.laroute.generate' => \Lord\Laroute\Console\Commands\LarouteGeneratorCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'hash' => \Illuminate\Hashing\BcryptHasher::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
@@ -759,6 +774,9 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
+        'Lord\Laroute\Generators\GeneratorInterface' => \Lord\Laroute\Generators\TemplateGenerator::class,
+        'Lord\Laroute\Compilers\CompilerInterface' => \Lord\Laroute\Compilers\TemplateCompiler::class,
+        'command.laroute.generate' => \Lord\Laroute\Console\Commands\LarouteGeneratorCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'hash' => \Illuminate\Hashing\BcryptHasher::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
@@ -900,6 +918,9 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
+        'Lord\Laroute\Generators\GeneratorInterface' => \Lord\Laroute\Generators\TemplateGenerator::class,
+        'Lord\Laroute\Compilers\CompilerInterface' => \Lord\Laroute\Compilers\TemplateCompiler::class,
+        'command.laroute.generate' => \Lord\Laroute\Console\Commands\LarouteGeneratorCommand::class,
         'blade.compiler' => \Illuminate\View\Compilers\BladeCompiler::class,
         'hash' => \Illuminate\Hashing\BcryptHasher::class,
         'Illuminate\Console\Scheduling\Schedule' => \Illuminate\Console\Scheduling\Schedule::class,
